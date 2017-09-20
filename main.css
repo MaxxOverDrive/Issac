@@ -1,0 +1,237 @@
+*,p,div{
+       word-break: keep-all;
+	}   
+      body{
+		 font-family: 'Montserrat'; 
+		 font-size:14px;
+		 line-height:2em;
+		  word-break: keep-all;
+		  }
+		  .videorow{
+	margin-top:18%;
+	}
+		  .icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.5rem;
+	height: 2.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 2.6rem;
+}
+
+.navbar-toggle .icon-bar{
+	border: 1px solid white;
+	}
+	.navbar-brand{
+		    padding: 12px 15px;
+		}
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.twitter  {
+	background-color: #2aaae0;
+}
+.facebook {
+	background-color:#da4936;
+}
+.google-plus {
+	background-color: #da4936;
+}
+.youtube {
+	background-color: #da4936;
+}
+.facebook{
+	background-color: #3b5a9a;
+	}
+
+/* Icons */
+.icon-button i {
+	
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	border-radius:50%;
+	top: -6px;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 2.6rem;
+	z-index: 10;
+}
+.icon-button .icon-twitter {
+	color: #4099ff;
+	background: #4099ff;
+}
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .icon-google-plus {
+	color: #dc4b38;
+}
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus {
+	color: white;
+}
+p{
+	margin: -14px 0 14px;
+	}
+.navbar-nav>li>a {
+    padding-top: 19px;
+}
+	
+.dropbtn {
+       background-color: transparent;
+    color: white;
+    padding: 0px;
+    font-size: 6px;
+    border: none;
+    cursor: pointer;
+}
+button.dropbtn>img {
+    width: 72%;
+   
+    margin-top: -56%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+overflow: auto;
+    height: 401px;
+	 top: 116%;
+	    border: 6px solid #008fd6;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+	    z-index: 999999999;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content::-webkit-scrollbar {
+    width: 5px;
+	border-radius:5px;
+}
+.dropdown-content::-webkit-scrollbar-track {
+    background-color:transparent;
+	border-radius:5px;
+   
+}
+.dropdown-content::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+.dropdown-content::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+.dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+	
+}
+
+.dropdown-content a.heading:hover {background: #008bd3;}
+.dropdown-content a:hover {background-color: transparent}
+
+.dropdown:hover .dropdown-content {
+	margin-left: -219%;
+    display: block;
+}
+a.heading {
+    color: white;
+    padding: 0px;
+    background: #008bd3;
+    text-align: center;
+    font-size: 14px;
+}
+
+.notifylist
+{
+    width: 7%;
+}h4.notititle {
+    /*word-break: break-all;*/
+    color: currentColor;
+    text-align: left;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0px;
+}
+h5.noticontent {
+	    color: gray;
+	text-align: left;
+    margin: 3px;
+    padding: 0px;
+    font-size: 12px;
+}
+.glyphicon-thumbs-up
+{
+       color: #ffbf00;
+    font-size: 22px;
+    float: left;
+	}
+.notifyrow	
+	{
+		padding-bottom: 7%;
+    border-bottom: 1px dashed #cecbcb;
+    padding-top: 4%;
+		}
+.glyphicon-time
+		{
+	top: 3px;
+    right: 3px;	
+			}
+.smgrow {
+    margin-top: 4%;
+}
+.videorow {
+    margin-top: 30%;
+}
+
+.videorow1 {
+    margin-top: 31%;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+.gm-style-iw div {
+   overflow: hidden !important; 
+}
+
+  .gm-style-iw{
+left:6px !important;
+} 
